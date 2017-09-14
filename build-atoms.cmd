@@ -258,3 +258,5 @@ go //javascript/webdriver/atoms/fragments/inject:type:chrome
 go //javascript/webdriver/atoms/fragments/inject:type:firefox
 go //javascript/webdriver/atoms/fragments/inject:type:ie
 go //javascript/webdriver/atoms/fragments/inject:type:ios
+
+cd ..
