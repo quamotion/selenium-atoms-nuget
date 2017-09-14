@@ -1,3 +1,11 @@
 build_script:
   - choco install -y wget
   - build-atoms.cmd
+  - cmd: dotnet build -c Release --version-suffix r%APPVEYOR_BUILD_NUMBER%
+
+test_script:
+  - cmd: dotnet test selenium-atoms-tests
+
+on_success:
+  - cmd: dotnet pack -c Release --version-suffix r%APPVEYOR_BUILD_NUMBER%
+  - ps: Push-AppveyorArtifact "selenium-atoms\bin\Release\selenium-atoms.3.5.3-r$($env:APPVEYOR_BUILD_NUMBER).nupkg"

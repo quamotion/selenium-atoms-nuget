@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <VersionPrefix>3.5.3</VersionPrefix>
+    <Description>Injectable Selenium Atoms, packaged as embedded resources in a .NET assembly</Description>
+    <Product>Injectable Selenium Atoms</Product>
+    <Company>Quamotion</Company>
+    <Authors>Quamotion</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="$(ProjectDir)\..\selenium-selenium-3.5.3\build\javascript\webdriver\atoms\fragments\inject\*.js" />
+  </ItemGroup>
+</Project>

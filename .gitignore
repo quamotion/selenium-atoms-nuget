@@ -1,2 +1,5 @@
 selenium.zip
 selenium-selenium-*/
+.vs/
+bin/
+obj/
