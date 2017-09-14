@@ -6,257 +6,257 @@ set JAVA_HOME=C:\Program Files\Java\jdk1.8.0
 set JDK_HOME=C:\Program Files\Java\jdk1.8.0
 set PATH=%JAVA_HOME%\bin;%JAVA_HOME%;%PATH%
 
-go //javascript/webdriver/atoms/fragments/inject:active_element
-go //javascript/webdriver/atoms/fragments/inject:active_element:android
-go //javascript/webdriver/atoms/fragments/inject:active_element:chrome
-go //javascript/webdriver/atoms/fragments/inject:active_element:firefox
-go //javascript/webdriver/atoms/fragments/inject:active_element:ie
-go //javascript/webdriver/atoms/fragments/inject:active_element:ios
-go //javascript/webdriver/atoms/fragments/inject:clear
-go //javascript/webdriver/atoms/fragments/inject:clear:android
-go //javascript/webdriver/atoms/fragments/inject:clear:chrome
-go //javascript/webdriver/atoms/fragments/inject:clear:firefox
-go //javascript/webdriver/atoms/fragments/inject:clear:ie
-go //javascript/webdriver/atoms/fragments/inject:clear:ios
-go //javascript/webdriver/atoms/fragments/inject:clear_local_storage
-go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:android
-go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:chrome
-go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:firefox
-go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:ie
-go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:ios
-go //javascript/webdriver/atoms/fragments/inject:clear_session_storage
-go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:android
-go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:chrome
-go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:firefox
-go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:ie
-go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:ios
-go //javascript/webdriver/atoms/fragments/inject:click
-go //javascript/webdriver/atoms/fragments/inject:click:android
-go //javascript/webdriver/atoms/fragments/inject:click:chrome
-go //javascript/webdriver/atoms/fragments/inject:click:firefox
-go //javascript/webdriver/atoms/fragments/inject:click:ie
-go //javascript/webdriver/atoms/fragments/inject:click:ios
-go //javascript/webdriver/atoms/fragments/inject:default_content
-go //javascript/webdriver/atoms/fragments/inject:default_content:android
-go //javascript/webdriver/atoms/fragments/inject:default_content:chrome
-go //javascript/webdriver/atoms/fragments/inject:default_content:firefox
-go //javascript/webdriver/atoms/fragments/inject:default_content:ie
-go //javascript/webdriver/atoms/fragments/inject:default_content:ios
-go //javascript/webdriver/atoms/fragments/inject:execute_async_script
-go //javascript/webdriver/atoms/fragments/inject:execute_async_script:android
-go //javascript/webdriver/atoms/fragments/inject:execute_async_script:chrome
-go //javascript/webdriver/atoms/fragments/inject:execute_async_script:firefox
-go //javascript/webdriver/atoms/fragments/inject:execute_async_script:ie
-go //javascript/webdriver/atoms/fragments/inject:execute_async_script:ios
-go //javascript/webdriver/atoms/fragments/inject:execute_script
-go //javascript/webdriver/atoms/fragments/inject:execute_script:android
-go //javascript/webdriver/atoms/fragments/inject:execute_script:chrome
-go //javascript/webdriver/atoms/fragments/inject:execute_script:firefox
-go //javascript/webdriver/atoms/fragments/inject:execute_script:ie
-go //javascript/webdriver/atoms/fragments/inject:execute_script:ios
-go //javascript/webdriver/atoms/fragments/inject:execute_sql
-go //javascript/webdriver/atoms/fragments/inject:execute_sql:android
-go //javascript/webdriver/atoms/fragments/inject:execute_sql:chrome
-go //javascript/webdriver/atoms/fragments/inject:execute_sql:firefox
-go //javascript/webdriver/atoms/fragments/inject:execute_sql:ie
-go //javascript/webdriver/atoms/fragments/inject:execute_sql:ios
-go //javascript/webdriver/atoms/fragments/inject:find_element
-go //javascript/webdriver/atoms/fragments/inject:find_element:android
-go //javascript/webdriver/atoms/fragments/inject:find_element:chrome
-go //javascript/webdriver/atoms/fragments/inject:find_element:firefox
-go //javascript/webdriver/atoms/fragments/inject:find_element:ie
-go //javascript/webdriver/atoms/fragments/inject:find_element:ios
-go //javascript/webdriver/atoms/fragments/inject:find_elements
-go //javascript/webdriver/atoms/fragments/inject:find_elements:android
-go //javascript/webdriver/atoms/fragments/inject:find_elements:chrome
-go //javascript/webdriver/atoms/fragments/inject:find_elements:firefox
-go //javascript/webdriver/atoms/fragments/inject:find_elements:ie
-go //javascript/webdriver/atoms/fragments/inject:find_elements:ios
-go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name
-go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:android
-go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:chrome
-go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:firefox
-go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:ie
-go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:ios
-go //javascript/webdriver/atoms/fragments/inject:frame_by_index
-go //javascript/webdriver/atoms/fragments/inject:frame_by_index:android
-go //javascript/webdriver/atoms/fragments/inject:frame_by_index:chrome
-go //javascript/webdriver/atoms/fragments/inject:frame_by_index:firefox
-go //javascript/webdriver/atoms/fragments/inject:frame_by_index:ie
-go //javascript/webdriver/atoms/fragments/inject:frame_by_index:ios
-go //javascript/webdriver/atoms/fragments/inject:get_appcache_status
-go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:android
-go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:ie
-go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:ios
-go //javascript/webdriver/atoms/fragments/inject:get_attribute_value
-go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:android
-go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:ie
-go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:ios
-go //javascript/webdriver/atoms/fragments/inject:get_frame_window
-go //javascript/webdriver/atoms/fragments/inject:get_frame_window:android
-go //javascript/webdriver/atoms/fragments/inject:get_frame_window:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_frame_window:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_frame_window:ie
-go //javascript/webdriver/atoms/fragments/inject:get_frame_window:ios
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:android
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:ie
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:ios
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:android
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:ie
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:ios
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:android
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:ie
-go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:ios
-go //javascript/webdriver/atoms/fragments/inject:get_parent_frame
-go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:android
-go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:ie
-go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:ios
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:android
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:ie
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:ios
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:android
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:ie
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:ios
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:android
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:ie
-go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:ios
-go //javascript/webdriver/atoms/fragments/inject:get_size
-go //javascript/webdriver/atoms/fragments/inject:get_size:android
-go //javascript/webdriver/atoms/fragments/inject:get_size:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_size:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_size:ie
-go //javascript/webdriver/atoms/fragments/inject:get_size:ios
-go //javascript/webdriver/atoms/fragments/inject:get_text
-go //javascript/webdriver/atoms/fragments/inject:get_text:android
-go //javascript/webdriver/atoms/fragments/inject:get_text:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_text:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_text:ie
-go //javascript/webdriver/atoms/fragments/inject:get_text:ios
-go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates
-go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:android
-go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:ie
-go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:ios
-go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property
-go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:android
-go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:chrome
-go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:firefox
-go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:ie
-go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:ios
-go //javascript/webdriver/atoms/fragments/inject:is_displayed
-go //javascript/webdriver/atoms/fragments/inject:is_displayed:android
-go //javascript/webdriver/atoms/fragments/inject:is_displayed:chrome
-go //javascript/webdriver/atoms/fragments/inject:is_displayed:firefox
-go //javascript/webdriver/atoms/fragments/inject:is_displayed:ie
-go //javascript/webdriver/atoms/fragments/inject:is_displayed:ios
-go //javascript/webdriver/atoms/fragments/inject:is_enabled
-go //javascript/webdriver/atoms/fragments/inject:is_enabled:android
-go //javascript/webdriver/atoms/fragments/inject:is_enabled:chrome
-go //javascript/webdriver/atoms/fragments/inject:is_enabled:firefox
-go //javascript/webdriver/atoms/fragments/inject:is_enabled:ie
-go //javascript/webdriver/atoms/fragments/inject:is_enabled:ios
-go //javascript/webdriver/atoms/fragments/inject:is_selected
-go //javascript/webdriver/atoms/fragments/inject:is_selected:android
-go //javascript/webdriver/atoms/fragments/inject:is_selected:chrome
-go //javascript/webdriver/atoms/fragments/inject:is_selected:firefox
-go //javascript/webdriver/atoms/fragments/inject:is_selected:ie
-go //javascript/webdriver/atoms/fragments/inject:is_selected:ios
-go //javascript/webdriver/atoms/fragments/inject:mouse_click
-go //javascript/webdriver/atoms/fragments/inject:mouse_click:android
-go //javascript/webdriver/atoms/fragments/inject:mouse_click:chrome
-go //javascript/webdriver/atoms/fragments/inject:mouse_click:firefox
-go //javascript/webdriver/atoms/fragments/inject:mouse_click:ie
-go //javascript/webdriver/atoms/fragments/inject:mouse_click:ios
-go //javascript/webdriver/atoms/fragments/inject:mouse_double_click
-go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:android
-go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:chrome
-go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:firefox
-go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:ie
-go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:ios
-go //javascript/webdriver/atoms/fragments/inject:mouse_down
-go //javascript/webdriver/atoms/fragments/inject:mouse_down:android
-go //javascript/webdriver/atoms/fragments/inject:mouse_down:chrome
-go //javascript/webdriver/atoms/fragments/inject:mouse_down:firefox
-go //javascript/webdriver/atoms/fragments/inject:mouse_down:ie
-go //javascript/webdriver/atoms/fragments/inject:mouse_down:ios
-go //javascript/webdriver/atoms/fragments/inject:mouse_move
-go //javascript/webdriver/atoms/fragments/inject:mouse_move:android
-go //javascript/webdriver/atoms/fragments/inject:mouse_move:chrome
-go //javascript/webdriver/atoms/fragments/inject:mouse_move:firefox
-go //javascript/webdriver/atoms/fragments/inject:mouse_move:ie
-go //javascript/webdriver/atoms/fragments/inject:mouse_move:ios
-go //javascript/webdriver/atoms/fragments/inject:mouse_up
-go //javascript/webdriver/atoms/fragments/inject:mouse_up:android
-go //javascript/webdriver/atoms/fragments/inject:mouse_up:chrome
-go //javascript/webdriver/atoms/fragments/inject:mouse_up:firefox
-go //javascript/webdriver/atoms/fragments/inject:mouse_up:ie
-go //javascript/webdriver/atoms/fragments/inject:mouse_up:ios
-go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item
-go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:android
-go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:chrome
-go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:firefox
-go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:ie
-go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:ios
-go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item
-go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:android
-go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:chrome
-go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:firefox
-go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:ie
-go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:ios
-go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element
-go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:android
-go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:chrome
-go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:firefox
-go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:ie
-go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:ios
-go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item
-go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:android
-go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:chrome
-go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:firefox
-go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:ie
-go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:ios
-go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item
-go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:android
-go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:chrome
-go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:firefox
-go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:ie
-go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:ios
-go //javascript/webdriver/atoms/fragments/inject:submit
-go //javascript/webdriver/atoms/fragments/inject:submit:android
-go //javascript/webdriver/atoms/fragments/inject:submit:chrome
-go //javascript/webdriver/atoms/fragments/inject:submit:firefox
-go //javascript/webdriver/atoms/fragments/inject:submit:ie
-go //javascript/webdriver/atoms/fragments/inject:submit:ios
-go //javascript/webdriver/atoms/fragments/inject:type
-go //javascript/webdriver/atoms/fragments/inject:type:android
-go //javascript/webdriver/atoms/fragments/inject:type:chrome
-go //javascript/webdriver/atoms/fragments/inject:type:firefox
-go //javascript/webdriver/atoms/fragments/inject:type:ie
-go //javascript/webdriver/atoms/fragments/inject:type:ios
+call go //javascript/webdriver/atoms/fragments/inject:active_element
+call go //javascript/webdriver/atoms/fragments/inject:active_element:android
+call go //javascript/webdriver/atoms/fragments/inject:active_element:chrome
+call go //javascript/webdriver/atoms/fragments/inject:active_element:firefox
+call go //javascript/webdriver/atoms/fragments/inject:active_element:ie
+call go //javascript/webdriver/atoms/fragments/inject:active_element:ios
+call go //javascript/webdriver/atoms/fragments/inject:clear
+call go //javascript/webdriver/atoms/fragments/inject:clear:android
+call go //javascript/webdriver/atoms/fragments/inject:clear:chrome
+call go //javascript/webdriver/atoms/fragments/inject:clear:firefox
+call go //javascript/webdriver/atoms/fragments/inject:clear:ie
+call go //javascript/webdriver/atoms/fragments/inject:clear:ios
+call go //javascript/webdriver/atoms/fragments/inject:clear_local_storage
+call go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:android
+call go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:chrome
+call go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:firefox
+call go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:ie
+call go //javascript/webdriver/atoms/fragments/inject:clear_local_storage:ios
+call go //javascript/webdriver/atoms/fragments/inject:clear_session_storage
+call go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:android
+call go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:chrome
+call go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:firefox
+call go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:ie
+call go //javascript/webdriver/atoms/fragments/inject:clear_session_storage:ios
+call go //javascript/webdriver/atoms/fragments/inject:click
+call go //javascript/webdriver/atoms/fragments/inject:click:android
+call go //javascript/webdriver/atoms/fragments/inject:click:chrome
+call go //javascript/webdriver/atoms/fragments/inject:click:firefox
+call go //javascript/webdriver/atoms/fragments/inject:click:ie
+call go //javascript/webdriver/atoms/fragments/inject:click:ios
+call go //javascript/webdriver/atoms/fragments/inject:default_content
+call go //javascript/webdriver/atoms/fragments/inject:default_content:android
+call go //javascript/webdriver/atoms/fragments/inject:default_content:chrome
+call go //javascript/webdriver/atoms/fragments/inject:default_content:firefox
+call go //javascript/webdriver/atoms/fragments/inject:default_content:ie
+call go //javascript/webdriver/atoms/fragments/inject:default_content:ios
+call go //javascript/webdriver/atoms/fragments/inject:execute_async_script
+call go //javascript/webdriver/atoms/fragments/inject:execute_async_script:android
+call go //javascript/webdriver/atoms/fragments/inject:execute_async_script:chrome
+call go //javascript/webdriver/atoms/fragments/inject:execute_async_script:firefox
+call go //javascript/webdriver/atoms/fragments/inject:execute_async_script:ie
+call go //javascript/webdriver/atoms/fragments/inject:execute_async_script:ios
+call go //javascript/webdriver/atoms/fragments/inject:execute_script
+call go //javascript/webdriver/atoms/fragments/inject:execute_script:android
+call go //javascript/webdriver/atoms/fragments/inject:execute_script:chrome
+call go //javascript/webdriver/atoms/fragments/inject:execute_script:firefox
+call go //javascript/webdriver/atoms/fragments/inject:execute_script:ie
+call go //javascript/webdriver/atoms/fragments/inject:execute_script:ios
+call go //javascript/webdriver/atoms/fragments/inject:execute_sql
+call go //javascript/webdriver/atoms/fragments/inject:execute_sql:android
+call go //javascript/webdriver/atoms/fragments/inject:execute_sql:chrome
+call go //javascript/webdriver/atoms/fragments/inject:execute_sql:firefox
+call go //javascript/webdriver/atoms/fragments/inject:execute_sql:ie
+call go //javascript/webdriver/atoms/fragments/inject:execute_sql:ios
+call go //javascript/webdriver/atoms/fragments/inject:find_element
+call go //javascript/webdriver/atoms/fragments/inject:find_element:android
+call go //javascript/webdriver/atoms/fragments/inject:find_element:chrome
+call go //javascript/webdriver/atoms/fragments/inject:find_element:firefox
+call go //javascript/webdriver/atoms/fragments/inject:find_element:ie
+call go //javascript/webdriver/atoms/fragments/inject:find_element:ios
+call go //javascript/webdriver/atoms/fragments/inject:find_elements
+call go //javascript/webdriver/atoms/fragments/inject:find_elements:android
+call go //javascript/webdriver/atoms/fragments/inject:find_elements:chrome
+call go //javascript/webdriver/atoms/fragments/inject:find_elements:firefox
+call go //javascript/webdriver/atoms/fragments/inject:find_elements:ie
+call go //javascript/webdriver/atoms/fragments/inject:find_elements:ios
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:android
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:chrome
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:firefox
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:ie
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_id_or_name:ios
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_index
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_index:android
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_index:chrome
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_index:firefox
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_index:ie
+call go //javascript/webdriver/atoms/fragments/inject:frame_by_index:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_appcache_status
+call go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:android
+call go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_appcache_status:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_attribute_value
+call go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:android
+call go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_attribute_value:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_frame_window
+call go //javascript/webdriver/atoms/fragments/inject:get_frame_window:android
+call go //javascript/webdriver/atoms/fragments/inject:get_frame_window:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_frame_window:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_frame_window:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_frame_window:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:android
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_item:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:android
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_keys:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:android
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_local_storage_size:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_parent_frame
+call go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:android
+call go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_parent_frame:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:android
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_item:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:android
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_keys:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:android
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_session_storage_size:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_size
+call go //javascript/webdriver/atoms/fragments/inject:get_size:android
+call go //javascript/webdriver/atoms/fragments/inject:get_size:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_size:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_size:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_size:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_text
+call go //javascript/webdriver/atoms/fragments/inject:get_text:android
+call go //javascript/webdriver/atoms/fragments/inject:get_text:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_text:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_text:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_text:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates
+call go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:android
+call go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_top_left_coordinates:ios
+call go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property
+call go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:android
+call go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:chrome
+call go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:firefox
+call go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:ie
+call go //javascript/webdriver/atoms/fragments/inject:get_value_of_css_property:ios
+call go //javascript/webdriver/atoms/fragments/inject:is_displayed
+call go //javascript/webdriver/atoms/fragments/inject:is_displayed:android
+call go //javascript/webdriver/atoms/fragments/inject:is_displayed:chrome
+call go //javascript/webdriver/atoms/fragments/inject:is_displayed:firefox
+call go //javascript/webdriver/atoms/fragments/inject:is_displayed:ie
+call go //javascript/webdriver/atoms/fragments/inject:is_displayed:ios
+call go //javascript/webdriver/atoms/fragments/inject:is_enabled
+call go //javascript/webdriver/atoms/fragments/inject:is_enabled:android
+call go //javascript/webdriver/atoms/fragments/inject:is_enabled:chrome
+call go //javascript/webdriver/atoms/fragments/inject:is_enabled:firefox
+call go //javascript/webdriver/atoms/fragments/inject:is_enabled:ie
+call go //javascript/webdriver/atoms/fragments/inject:is_enabled:ios
+call go //javascript/webdriver/atoms/fragments/inject:is_selected
+call go //javascript/webdriver/atoms/fragments/inject:is_selected:android
+call go //javascript/webdriver/atoms/fragments/inject:is_selected:chrome
+call go //javascript/webdriver/atoms/fragments/inject:is_selected:firefox
+call go //javascript/webdriver/atoms/fragments/inject:is_selected:ie
+call go //javascript/webdriver/atoms/fragments/inject:is_selected:ios
+call go //javascript/webdriver/atoms/fragments/inject:mouse_click
+call go //javascript/webdriver/atoms/fragments/inject:mouse_click:android
+call go //javascript/webdriver/atoms/fragments/inject:mouse_click:chrome
+call go //javascript/webdriver/atoms/fragments/inject:mouse_click:firefox
+call go //javascript/webdriver/atoms/fragments/inject:mouse_click:ie
+call go //javascript/webdriver/atoms/fragments/inject:mouse_click:ios
+call go //javascript/webdriver/atoms/fragments/inject:mouse_double_click
+call go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:android
+call go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:chrome
+call go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:firefox
+call go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:ie
+call go //javascript/webdriver/atoms/fragments/inject:mouse_double_click:ios
+call go //javascript/webdriver/atoms/fragments/inject:mouse_down
+call go //javascript/webdriver/atoms/fragments/inject:mouse_down:android
+call go //javascript/webdriver/atoms/fragments/inject:mouse_down:chrome
+call go //javascript/webdriver/atoms/fragments/inject:mouse_down:firefox
+call go //javascript/webdriver/atoms/fragments/inject:mouse_down:ie
+call go //javascript/webdriver/atoms/fragments/inject:mouse_down:ios
+call go //javascript/webdriver/atoms/fragments/inject:mouse_move
+call go //javascript/webdriver/atoms/fragments/inject:mouse_move:android
+call go //javascript/webdriver/atoms/fragments/inject:mouse_move:chrome
+call go //javascript/webdriver/atoms/fragments/inject:mouse_move:firefox
+call go //javascript/webdriver/atoms/fragments/inject:mouse_move:ie
+call go //javascript/webdriver/atoms/fragments/inject:mouse_move:ios
+call go //javascript/webdriver/atoms/fragments/inject:mouse_up
+call go //javascript/webdriver/atoms/fragments/inject:mouse_up:android
+call go //javascript/webdriver/atoms/fragments/inject:mouse_up:chrome
+call go //javascript/webdriver/atoms/fragments/inject:mouse_up:firefox
+call go //javascript/webdriver/atoms/fragments/inject:mouse_up:ie
+call go //javascript/webdriver/atoms/fragments/inject:mouse_up:ios
+call go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item
+call go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:android
+call go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:chrome
+call go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:firefox
+call go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:ie
+call go //javascript/webdriver/atoms/fragments/inject:remove_local_storage_item:ios
+call go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item
+call go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:android
+call go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:chrome
+call go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:firefox
+call go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:ie
+call go //javascript/webdriver/atoms/fragments/inject:remove_session_storage_item:ios
+call go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element
+call go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:android
+call go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:chrome
+call go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:firefox
+call go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:ie
+call go //javascript/webdriver/atoms/fragments/inject:send_keys_to_active_element:ios
+call go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item
+call go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:android
+call go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:chrome
+call go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:firefox
+call go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:ie
+call go //javascript/webdriver/atoms/fragments/inject:set_local_storage_item:ios
+call go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item
+call go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:android
+call go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:chrome
+call go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:firefox
+call go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:ie
+call go //javascript/webdriver/atoms/fragments/inject:set_session_storage_item:ios
+call go //javascript/webdriver/atoms/fragments/inject:submit
+call go //javascript/webdriver/atoms/fragments/inject:submit:android
+call go //javascript/webdriver/atoms/fragments/inject:submit:chrome
+call go //javascript/webdriver/atoms/fragments/inject:submit:firefox
+call go //javascript/webdriver/atoms/fragments/inject:submit:ie
+call go //javascript/webdriver/atoms/fragments/inject:submit:ios
+call go //javascript/webdriver/atoms/fragments/inject:type
+call go //javascript/webdriver/atoms/fragments/inject:type:android
+call go //javascript/webdriver/atoms/fragments/inject:type:chrome
+call go //javascript/webdriver/atoms/fragments/inject:type:firefox
+call go //javascript/webdriver/atoms/fragments/inject:type:ie
+call go //javascript/webdriver/atoms/fragments/inject:type:ios
 
 cd ..
