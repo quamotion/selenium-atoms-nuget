@@ -5,6 +5,7 @@ cd selenium-selenium-3.5.3
 set JAVA_HOME=C:\Program Files\Java\jdk1.8.0
 set JDK_HOME=C:\Program Files\Java\jdk1.8.0
 set PATH=%JAVA_HOME%\bin;%JAVA_HOME%;%PATH%
+set BUCK_EXTRA_JAVA_ARGS=-Djna.nosys=true
 
 call go //javascript/webdriver/atoms/fragments/inject:active_element //javascript/webdriver/atoms/fragments/inject:active_element:android //javascript/webdriver/atoms/fragments/inject:active_element:chrome //javascript/webdriver/atoms/fragments/inject:active_element:firefox //javascript/webdriver/atoms/fragments/inject:active_element:ie //javascript/webdriver/atoms/fragments/inject:active_element:ios
 call go //javascript/webdriver/atoms/fragments/inject:clear //javascript/webdriver/atoms/fragments/inject:clear:android //javascript/webdriver/atoms/fragments/inject:clear:chrome //javascript/webdriver/atoms/fragments/inject:clear:firefox //javascript/webdriver/atoms/fragments/inject:clear:ie //javascript/webdriver/atoms/fragments/inject:clear:ios
