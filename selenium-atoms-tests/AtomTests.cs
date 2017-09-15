@@ -27,7 +27,7 @@ namespace Selenium.Atoms.Tests
         [Fact]
         public void GetInvalidInjectableAtomTest()
         {
-            Assert.Throws<AtomNotFoundException>(Atom.GetInjectableAtom("abc", AtomTarget.Android));
+            Assert.Throws<AtomNotFoundException>(() => Atom.GetInjectableAtom("abc", AtomTarget.Android));
         }
     }
 }
